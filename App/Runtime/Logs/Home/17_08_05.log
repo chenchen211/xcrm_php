@@ -1,0 +1,1595 @@
+[ 2017-08-05T09:44:43+08:00 ] ::1 /index.php/home/menu/index?_=1501897482885
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T09:45:53+08:00 ] ::1 /index.php/Home/Menu/edit/id/42/navTabId/Menu?_=1501897552546
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `id` = 42 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T10:38:15+08:00 ] 127.0.0.1 /index.php/home/contact/index?_=1501900694178
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_contact` WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SELECT * FROM `xy_contact` WHERE `uid` = '1' ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\892ecff37ab44cb21676efa6fe9caaab.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T10:38:52+08:00 ] 127.0.0.1 /index.php/home/menu/index?_=1501900731392
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T10:39:33+08:00 ] 127.0.0.1 /index.php/Home/Menu/edit/id/47/navTabId/Menu?_=1501900772068
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T10:40:08+08:00 ] 127.0.0.1 /index.php/Home/Menu/edit/navTabId/Menu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `level` FROM `xy_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `xy_menu` SET `pid`='2',`catename`='知识',`alink`='zhishi/index',`sort`='5',`level`='1' WHERE `id` = 47 [ RunTime:0.0000s ]
+SQL: UPDATE `xy_user` SET `update_time`='1501900808' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','编辑成功47','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','/index.php?m=Home&c=Menu&a=edit','2017-08-05 10:40:08','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2017-08-05T10:40:09+08:00 ] 127.0.0.1 /index.php/home/menu/index?_=1501900808508
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T10:53:23+08:00 ] 127.0.0.1 /index.php/Home/Menu/edit/navTabId/Menu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `level` FROM `xy_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `xy_menu` SET `pid`='2',`catename`='知识',`alink`='zhishi/index',`sort`='5',`level`='1' WHERE `id` = 47 [ RunTime:0.0010s ]
+SQL: UPDATE `xy_user` SET `update_time`='1501901603' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','编辑成功47','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','/index.php?m=Home&c=Menu&a=edit','2017-08-05 10:53:23','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2017-08-05T10:56:49+08:00 ] 127.0.0.1 /index.php/home/model/index?_=1501901809829
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-05T10:56:54+08:00 ] 127.0.0.1 /index.php/home/menu/index?_=1501901813507
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T10:56:58+08:00 ] 127.0.0.1 /index.php/Home/Menu/edit/id/47/navTabId/Menu?_=1501901817861
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T10:57:05+08:00 ] 127.0.0.1 /index.php/Home/Menu/edit/navTabId/Menu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT `level` FROM `xy_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `xy_menu` SET `pid`='2',`catename`='知识库',`alink`='zhishi/index',`sort`='5',`level`='1' WHERE `id` = 47 [ RunTime:0.0000s ]
+SQL: UPDATE `xy_user` SET `update_time`='1501901825' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','编辑成功47','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','/index.php?m=Home&c=Menu&a=edit','2017-08-05 10:57:05','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2017-08-05T10:57:06+08:00 ] 127.0.0.1 /index.php/home/menu/index?_=1501901825340
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T11:09:20+08:00 ] 127.0.0.1 /index.php/Home/Menu/edit/id/47/navTabId/Menu?_=1501902558915
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `id` = 47 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T11:09:24+08:00 ] 127.0.0.1 /index.php/Home/Menu/edit/navTabId/Menu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `level` FROM `xy_menu` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `xy_menu` SET `pid`='2',`catename`='知识',`alink`='zhishi/index',`sort`='5',`level`='1' WHERE `id` = 47 [ RunTime:0.0000s ]
+SQL: UPDATE `xy_user` SET `update_time`='1501902564' WHERE `id` = 1 [ RunTime:0.0010s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','编辑成功47','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','/index.php?m=Home&c=Menu&a=edit','2017-08-05 11:09:24','127.0.0.1') [ RunTime:0.0000s ]
+
+[ 2017-08-05T11:09:26+08:00 ] 127.0.0.1 /index.php/home/menu/index?_=1501902565047
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_menu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 2 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 12 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 33 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 8 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 28 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 34 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 52 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 44 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 47 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 40 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 41 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 42 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 27 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 29 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 30 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 46 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 1 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 25 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 62 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 32 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 26 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 63 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 3 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 49 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 50 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 51 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 45 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 64 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 65 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 69 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 70 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 57 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 58 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 59 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 73 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 72 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 60 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 61 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 4 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 35 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 36 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 37 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 38 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 39 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 43 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 48 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 53 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 54 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 55 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 56 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 66 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 67 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 68 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 71 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 7 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 9 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 23 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 10 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 14 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 22 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 31 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 20 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 11 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 19 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 24 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 21 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_menu` WHERE `pid` = 13 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:26:37+08:00 ] ::1 /index.php/home/config/index?_=1501914397298
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-05T14:26:37+08:00 ] ::1 /index.php?m=Home&c=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:28:53+08:00 ] ::1 /index.php/home/info/index?_=1501914532334
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_info` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_info` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\ea44ee9735b2b134918a6d78ab57d164.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:28:57+08:00 ] ::1 /index.php/home/myinfo/index?_=1501914536574
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_info` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_info` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\b54047a8b9824a50864af56fc7d0e550.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-05T14:29:02+08:00 ] ::1 /index.php/home/info/index?_=1501914541284
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_info` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_info` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\ea44ee9735b2b134918a6d78ab57d164.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:29:06+08:00 ] ::1 /index.php/home/contact/index?_=1501914545359
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_contact` WHERE `uid` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_contact` WHERE `uid` = '1' ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\892ecff37ab44cb21676efa6fe9caaab.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:29:08+08:00 ] ::1 /index.php/home/pcontact/index?_=1501914547883
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_contact` WHERE `shuxing` = '公共' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_contact` WHERE `shuxing` = '公共' ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\aecc476031d166d1669be119983b6b73.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:29:18+08:00 ] ::1 /index.php/home/ccontact/index?_=1501914557687
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 0 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 1 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 2 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 3 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 4 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 8 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 10 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 12 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 9 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:30:15+08:00 ] ::1 /index.php/home/ccontact/index?_=1501914614732
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 0 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 1 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 2 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 3 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 4 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 8 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 10 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 12 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 9 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: filter D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 11 行.
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\e16b94e1e2dfb40cf5daec73954ed9de.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:33:30+08:00 ] ::1 /index.php/home/cust/index?_=1501914808945
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_cust` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_cust` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 8 行.
+NOTIC: [8] Undefined index: time1 D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 9 行.
+NOTIC: [8] Undefined index: time2 D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 9 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:33:35+08:00 ] ::1 /index.php/Home/custcon/add/cid/3/navTabId/Cust?_=1501914814192
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `title` FROM `xy_cust` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 10 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 10 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 11 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\CustconController::_after_add() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CustconController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:33:44+08:00 ] ::1 /index.php/Home/custcon/add/cid/3/navTabId/Cust?_=1501914822955
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT `title` FROM `xy_cust` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 10 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 10 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 11 行.
+NOTIC: [8] Undefined variable: Rs D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\cf763b5dc6014d87e1dc87e0c76990cb.php 第 13 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\CustconController::_after_add() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CustconController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:33:57+08:00 ] ::1 /index.php/Home/Cust/edit/id/3/navTabId/Cust?_=1501914836352
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SELECT * FROM `xy_cust` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: attid D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CustController.class.php 第 55 行.
+SQL: SELECT * FROM `xy_cust` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\CustController::_after_edit() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CustController.class.php 第 63 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:34:19+08:00 ] ::1 /index.php/home/cust/fenxi?_=1501914859892
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:34:44+08:00 ] ::1 /index.php/home/htfenxi/index?_=1501914884052
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:35:19+08:00 ] ::1 /index.php/home/hetong/daoqi?_=1501914918418
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `xy_hetong` WHERE ( `dqrq` >= '2017-06-05' AND `dqrq` <= '2017-09-05'  )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 4 行.
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 8 行.
+NOTIC: [8] Undefined index: time1 D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 9 行.
+NOTIC: [8] Undefined index: time2 D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 9 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 70 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 70 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 72 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 72 行.
+NOTIC: [8] Undefined variable: currentPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\599273a6f3c6a014b97b7e5e47104b5a.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:35:24+08:00 ] ::1 /index.php/home/cust/daoqi?_=1501914922976
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `xy_cust` WHERE ( `xcrq` >= '2017-07-29' AND `xcrq` <= '2017-09-05'  )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 4 行.
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 8 行.
+NOTIC: [8] Undefined index: time1 D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 9 行.
+NOTIC: [8] Undefined index: time2 D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 9 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 70 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 70 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 72 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 72 行.
+NOTIC: [8] Undefined variable: currentPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\5c22d29b0eb55c361b5221fa6fb427f6.php 第 72 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:35:28+08:00 ] ::1 /index.php/home/htfenxi/yewuyuan?_=1501914927421
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT DISTINCT  `name` FROM `xy_hetong`  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.049060s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.049060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:35:39+08:00 ] ::1 /index.php/home/hr/index?_=1501914938001
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_hr` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_hr` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:36:07+08:00 ] ::1 /index.php/home/hrgh/index?_=1501914966000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_hrgh` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_hrgh` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\ff31bc6185d8e31047338041892c3a6f.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:36:18+08:00 ] ::1 /index.php/Home/Hrgh/view/id/2/navTabId/Hrgh?_=1501914977809
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_hrgh` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `xy_files` WHERE ( attid=1425266572 )  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-05T14:36:35+08:00 ] ::1 /index.php/home/hr/birthday?_=1501914994006
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_hr` WHERE ( birthday=08 or birthday=09 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 4 行.
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 8 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 67 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 67 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 69 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 69 行.
+NOTIC: [8] Undefined variable: currentPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\914533bfd624db1d63f61d42bbceaa97.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:36:37+08:00 ] ::1 /index.php/home/hrht/daoqi?_=1501914996871
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `xy_hrht` WHERE ( `jsrj` >= '2017-06-05' AND `jsrj` <= '2017-09-05'  )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\7f327a738bb733838878d1dff0a8d2e1.php 第 4 行.
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\7f327a738bb733838878d1dff0a8d2e1.php 第 8 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\7f327a738bb733838878d1dff0a8d2e1.php 第 61 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\7f327a738bb733838878d1dff0a8d2e1.php 第 61 行.
+NOTIC: [8] Undefined variable: totalCount D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\7f327a738bb733838878d1dff0a8d2e1.php 第 63 行.
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\7f327a738bb733838878d1dff0a8d2e1.php 第 63 行.
+NOTIC: [8] Undefined variable: currentPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\7f327a738bb733838878d1dff0a8d2e1.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:36:41+08:00 ] ::1 /index.php/home/hr/fenxi?_=1501915001691
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:36:58+08:00 ] ::1 /index.php/home/shou/index?_=1501915017251
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_shou` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_shou` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\fc977124d788399cdd08f15688d557a1.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:37:00+08:00 ] ::1 /index.php/home/fu/index?_=1501915019784
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_fu` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_fu` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\4948ca0b759b78af0c831dff1d2166fd.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-05T14:37:04+08:00 ] ::1 /index.php/home/piao/index?_=1501915023030
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_piao` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_piao` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\0d9f5df23e17adc555e04ba89dbf54cb.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

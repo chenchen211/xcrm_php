@@ -1,0 +1,1507 @@
+[ 2017-08-15T09:12:12+08:00 ] ::1 /index.php/home/dep/index?_=1502759531475
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\900ef223b9367c1bec965a5321de27a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T09:55:32+08:00 ] ::1 /index.php/home/org/index?_=1502762131384
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 0 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 1 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 2 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 3 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 4 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 8 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 10 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 12 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 9 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\b7e629708568fa989cae91f5229a82de.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T10:51:01+08:00 ] ::1 /index.php/home/user/index?_=1502765460705
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T10:51:05+08:00 ] ::1 /index.php/Home/Dep/del/navTabId/Dep
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE ( status=0 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 261 行.
+SQL: SELECT * FROM `xy_files` WHERE ( attid=0 and  uid=1 )  [ RunTime:0.0120s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 267 行.
+SQL: DELETE FROM `xy_files` WHERE ( attid=0 and  uid=1 ) [ RunTime:0.0010s ]
+SQL: DELETE FROM `xy_auth_group` WHERE ( status=0 ) [ RunTime:0.0000s ]
+SQL: UPDATE `xy_user` SET `update_time`='1502765465' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','清理0条无用的记录','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','/index.php?m=Home&c=Dep&a=del','2017-08-15 10:51:05','0.0.0.0') [ RunTime:0.0000s ]
+
+[ 2017-08-15T10:51:06+08:00 ] ::1 /index.php/home/dep/index?_=1502765465279
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\900ef223b9367c1bec965a5321de27a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T10:51:07+08:00 ] ::1 /index.php/home/dep/index?_=1502765465282
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\900ef223b9367c1bec965a5321de27a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T10:51:49+08:00 ] ::1 /index.php/Home/User
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T10:51:59+08:00 ] ::1 /index.php/home/user/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T10:52:04+08:00 ] ::1 /index.php/Home/User/del/navTabId/User
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_user` WHERE ( status=0 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 261 行.
+SQL: SELECT * FROM `xy_files` WHERE ( attid=0 and  uid=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 267 行.
+SQL: DELETE FROM `xy_files` WHERE ( attid=0 and  uid=1 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_user` WHERE ( status=0 ) [ RunTime:0.0010s ]
+SQL: UPDATE `xy_user` SET `update_time`='1502765524' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','清理0条无用的记录','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','/index.php?m=Home&c=User&a=del','2017-08-15 10:52:04','0.0.0.0') [ RunTime:0.0000s ]
+
+[ 2017-08-15T10:52:05+08:00 ] ::1 /index.php/home/user/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T10:52:06+08:00 ] ::1 /index.php/home/user/index?_=1502765524363
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T10:52:12+08:00 ] ::1 /index.php/home/user/index?_=1502765531870
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T10:55:46+08:00 ] ::1 /index.php/home/dep/index?_=1502765745753
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `type` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\900ef223b9367c1bec965a5321de27a9.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T11:03:30+08:00 ] ::1 /index.php/home/org/index?_=1502766209768
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 0 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 1 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 2 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 3 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 4 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 8 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 10 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 12 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 9 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: numPerPage D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\b7e629708568fa989cae91f5229a82de.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T11:03:32+08:00 ] ::1 /index.php/Home/Org/EditRule/id/1/type/0/navTabId/Org?_=1502766211899
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT `rules` FROM `xy_auth_group` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=0 ) ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=42 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=56 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=72 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=62 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=66 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=77 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=83 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=88 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=94 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=100 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=106 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=43 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=49 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=53 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=199 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=200 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=206 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=211 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=216 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=163 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=164 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=177 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=183 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=189 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=220 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=109 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=110 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=127 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=134 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=140 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=146 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=151 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=226 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=227 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=232 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=237 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=1 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=2 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=8 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=14 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=20 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=25 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=30 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=35 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=37 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=39 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T11:05:04+08:00 ] ::1 /index.php/Home/Org/EditRule/id/2/type/0/navTabId/Org?_=1502766303505
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `rules` FROM `xy_auth_group` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=0 ) ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=42 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=56 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=72 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=62 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=66 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=77 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=83 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=88 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=94 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=100 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=106 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=43 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=49 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=53 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=199 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=200 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=206 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=211 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=216 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=163 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=164 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=177 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=183 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=189 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=220 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=109 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=110 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=127 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=134 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=140 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=146 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=151 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=226 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=227 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=232 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=237 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=1 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=2 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=8 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=14 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=20 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=25 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=30 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=35 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=37 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=39 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\93ef9c8a8e28114068b10be81e1373fe.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T11:25:27+08:00 ] ::1 /index.php/Home/Dep/EditRule/id/7/type/1/navTabId/Dep?_=1502767526120
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT `rules` FROM `xy_auth_group` WHERE ( id=7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=0 ) ORDER BY sort  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=42 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=56 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=72 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=62 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=66 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=77 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=83 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=88 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=94 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=100 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=106 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=43 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=49 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=53 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=199 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=200 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=206 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=211 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=216 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=163 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=164 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=177 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=183 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=189 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=220 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=109 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=110 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=127 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=134 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=140 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=146 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=151 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=226 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=227 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=232 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=237 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 28 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=1 and pid=1 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=2 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=8 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=14 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=20 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=25 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=30 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=35 ) ORDER BY sort  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=37 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 35 行.
+SQL: SELECT * FROM `xy_auth_rule` WHERE ( level=2 and pid=39 ) ORDER BY sort  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\bec1acb9fd490ee4848034b5289a6c2c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T15:34:32+08:00 ] ::1 /index.php/Home/User/edit/id/5/navTabId/User?_=1502782472846
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T15:34:32+08:00 ] ::1 /index.php?m=Home&c=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T15:34:54+08:00 ] ::1 /index.php/home/user/index?_=1502782493418
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T15:35:01+08:00 ] ::1 /index.php/Home/User/edit/id/5/navTabId/User?_=1502782500202
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 0 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 1 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 2 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 3 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 4 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 8 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 10 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 12 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 9 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\3882e38249fd16ee0842e7f6760bd54d.php 第 25 行.
+SQL: SELECT * FROM `xy_auth_group` WHERE `type` = 1  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T15:39:22+08:00 ] ::1 /index.php/Home/User/edit/id/5/navTabId/User?_=1502782761572
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 0 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 1 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 2 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 3 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 4 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 8 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 10 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 12 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 9 AND `type` = 0 ORDER BY sort  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\3882e38249fd16ee0842e7f6760bd54d.php 第 25 行.
+SQL: SELECT * FROM `xy_auth_group` WHERE `type` = 1  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T15:39:40+08:00 ] ::1 /index.php/Home/User/edit/id/5/navTabId/User?_=1502782779084
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 0 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 1 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 2 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 3 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 4 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 8 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 10 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 12 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_auth_group` WHERE `pid` = 9 AND `type` = 0 ORDER BY sort  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\3882e38249fd16ee0842e7f6760bd54d.php 第 25 行.
+SQL: SELECT * FROM `xy_auth_group` WHERE `type` = 1  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T16:07:47+08:00 ] ::1 /index.php/Home/User/del/navTabId/User
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `xy_user` WHERE ( status=0 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 261 行.
+SQL: SELECT * FROM `xy_files` WHERE ( attid=0 and  uid=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 267 行.
+SQL: DELETE FROM `xy_files` WHERE ( attid=0 and  uid=1 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_user` WHERE ( status=0 ) [ RunTime:0.0010s ]
+SQL: UPDATE `xy_user` SET `update_time`='1502784467' WHERE `id` = 1 [ RunTime:0.0000s ]
+SQL: INSERT INTO `xy_log` (`username`,`content`,`os`,`url`,`addtime`,`ip`) VALUES ('admin','清理0条无用的记录','Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36','/index.php?m=Home&c=User&a=del','2017-08-15 16:07:47','0.0.0.0') [ RunTime:0.0000s ]
+
+[ 2017-08-15T16:07:49+08:00 ] ::1 /index.php/home/user/index?_=1502784467949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-15T16:07:50+08:00 ] ::1 /index.php/home/user/index?_=1502784467950
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: order D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `xy_user` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keys D:\phpStudy\WWW\Projects\xcrm\App\Runtime\Cache\Home\64032f3cba072b42246c94805e3ede75.php 第 8 行.
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 5 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `xy_auth_group_access` WHERE `group_id` = 0 [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_auth_group_access` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-15T16:08:01+08:00 ] ::1 /index.php?m=Home&c=public&a=online&_=1502784480709
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pageNum D:\phpStudy\WWW\Projects\xcrm\App\Home\Controller\PublicController.class.php 第 147 行.
+SQL: SELECT * FROM `xy_user` WHERE `update_time` > 1502783880 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` WHERE `update_time` > 1502783880 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

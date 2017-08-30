@@ -1,0 +1,376 @@
+[ 2016-01-19T13:47:55+08:00 ] 127.0.0.1 /xcrm/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+SQL: SELECT * FROM `xy_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_user` WHERE `update_time` > 1453181875 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=0 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=2 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=12 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=12 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=33 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=33 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=8 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=28 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=28 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=34 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=34 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=52 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=52 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=44 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=44 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=47 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=47 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=40 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=40 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=27 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=27 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=1 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=25 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=25 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=62 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=62 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=32 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=32 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=26 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=26 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=63 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=63 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=3 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=49 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=49 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=50 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=50 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=51 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=51 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=45 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=45 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=64 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=64 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=65 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=65 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=69 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=69 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=70 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=70 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=57 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=57 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=4 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=35 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=35 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=36 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=36 ) ORDER BY sort  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=37 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=37 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=38 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=38 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=39 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=39 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=43 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=48 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=48 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=53 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=53 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=66 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=67 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=67 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=68 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=68 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=71 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=71 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 186 行.
+SQL: SELECT * FROM `xy_menu` WHERE ( level=1 and pid=7 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=9 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=9 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=22 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=22 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 207 行.
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=24 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=24 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=21 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=21 ) ORDER BY sort  [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant alink - assumed 'alink' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 202 行.
+SQL: SELECT COUNT(id) AS tp_count FROM `xy_menu` WHERE ( level=2 and pid=13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_menu` WHERE ( level=2 and pid=13 ) ORDER BY sort  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_mygo` ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 298 行.
+SQL: SELECT * FROM `xy_task` WHERE `juid` LIKE '%1%' ORDER BY id desc LIMIT 5   [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' G:\Project\xcrm\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 328 行.
+SQL: SELECT * FROM `xy_info` WHERE `juid` LIKE '%1%' ORDER BY id desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_cust` WHERE `uid` = '1' OR `juid` LIKE '%1%' ORDER BY updatetime desc LIMIT 5   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-01-19T13:48:01+08:00 ] 127.0.0.1 /xcrm/index.php/home/pro/index?_=1453182480583
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+NOTIC: [8] Undefined variable: order G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_pro` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_pro` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: keys G:\Project\xcrm\App\Runtime\Cache\Home\8e393816a0c1a4377ad5e682d62ee611.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-01-19T13:51:34+08:00 ] 127.0.0.1 /xcrm/index.php/home/pro/index?_=1453182692989
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+NOTIC: [8] Undefined variable: order G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_pro` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_pro` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: keys G:\Project\xcrm\App\Runtime\Cache\Home\8e393816a0c1a4377ad5e682d62ee611.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001985s ]
+
+[ 2016-01-19T14:04:33+08:00 ] 127.0.0.1 /xcrm/index.php/Home/Pro/view/id/2/navTabId/Pro?_=1453183472756
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+SQL: SELECT * FROM `xy_pro` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+SQL: SELECT * FROM `xy_proin` WHERE `jpid` = 2  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `xy_proout` WHERE `jpid` = 2  [ RunTime:0.0009s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2016-01-19T14:06:54+08:00 ] 127.0.0.1 /xcrm/index.php/home/proin/index?_=1453183613158
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002813s ]
+NOTIC: [8] Undefined variable: order G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_proin` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xy_proin` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: keys G:\Project\xcrm\App\Runtime\Cache\Home\e4ec4bc2ee9bde35ebab898686312afd.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002158s ]
+
+[ 2016-01-19T14:12:48+08:00 ] 127.0.0.1 /xcrm/index.php/Home/Proin/view/id/2/navTabId/Proin?_=1453183966963
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008323s ]
+SQL: SELECT * FROM `xy_proin` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002239s ]
+
+[ 2016-01-19T14:13:11+08:00 ] 127.0.0.1 /xcrm/index.php/Home/Proin/edit/id/2/navTabId/Proin?_=1453183990217
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+SQL: SELECT * FROM `xy_proin` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: attid G:\Project\xcrm\App\Home\Controller\ProinController.class.php 第 52 行.
+SQL: SELECT * FROM `xy_proin` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048165s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\ProinController::_after_edit() G:\Project\xcrm\App\Home\Controller\ProinController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-01-19T14:20:39+08:00 ] 127.0.0.1 /xcrm/index.php/home/proout/index?_=1453184438142
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+NOTIC: [8] Undefined variable: order G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_proout` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xy_proout` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: keys G:\Project\xcrm\App\Runtime\Cache\Home\5103d74e41c59917968d1d3b2ea437f3.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001800s ]
+

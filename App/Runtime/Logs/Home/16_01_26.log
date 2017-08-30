@@ -1,0 +1,164 @@
+[ 2016-01-26T07:25:09+08:00 ] 127.0.0.1 /xcrm/index.php/home/pro/index?_=1453764307954
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+NOTIC: [8] Undefined variable: order G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: sort G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 91 行.
+NOTIC: [8] Undefined variable: pageCurrent G:\Project\xcrm\App\Home\Controller\CommonController.class.php 第 99 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `xy_pro` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xy_pro` ORDER BY `id` desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: keys G:\Project\xcrm\App\Runtime\Cache\Home\8e393816a0c1a4377ad5e682d62ee611.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2016-01-26T07:25:14+08:00 ] 127.0.0.1 /xcrm/index.php/Home/Pro/add/navTabId/Pro?_=1453764314538
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+NOTIC: [8] Undefined variable: id G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002683s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\ProController::_after_add() G:\Project\xcrm\App\Home\Controller\ProController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001864s ]
+
+[ 2016-01-26T07:25:17+08:00 ] 127.0.0.1 /xcrm/index.php/Home/public/procate/navTabId/Pro?_=1453764316459
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002141s ]
+SQL: SELECT DISTINCT  `fenlei` FROM `xy_pro`  [ RunTime:0.0211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2016-01-26T07:25:37+08:00 ] 127.0.0.1 /xcrm/index.php/Home/public/procate/navTabId/Pro?_=1453764336493
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SELECT DISTINCT  `fenlei` FROM `xy_pro`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002865s ]
+
+[ 2016-01-26T07:26:24+08:00 ] 127.0.0.1 /xcrm/index.php/Home/Pro/add/navTabId/Pro?_=1453764384031
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: id G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001579s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\ProController::_after_add() G:\Project\xcrm\App\Home\Controller\ProController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002078s ]
+
+[ 2016-01-26T07:26:26+08:00 ] 127.0.0.1 /xcrm/index.php/Home/public/procate/navTabId/Pro?_=1453764385815
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+SQL: SELECT DISTINCT  `fenlei` FROM `xy_pro`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-01-26T07:28:43+08:00 ] 127.0.0.1 /xcrm/index.php/Home/Pro/add/navTabId/Pro?_=1453764523164
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+NOTIC: [8] Undefined variable: id G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 3 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 7 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 8 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 9 行.
+NOTIC: [8] Undefined variable: Rs G:\Project\xcrm\App\Runtime\Cache\Home\20f3dc773c701d88d761238f19bc9db4.php 第 11 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\ProController::_after_add() G:\Project\xcrm\App\Home\Controller\ProController.class.php 第 40 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001980s ]
+
